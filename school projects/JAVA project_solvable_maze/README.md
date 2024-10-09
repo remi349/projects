@@ -26,208 +26,208 @@ More details can be found on how the code is structured in the javadoc generated
 │   │   ├── MazeReadingException.class<br />
 │   │   ├── PBox.class<br />
 │   │   └── WBox.class<br />
-│   ├── model
-│   │   └── MazeAppModel.class
-│   ├── ui
-│   │   ├── ButtonPanelpack
-│   │   │   ├── ArrivalButton.class
-│   │   │   ├── DepartureButton.class
-│   │   │   ├── DimensionButton.class
-│   │   │   ├── EmptyButton.class
-│   │   │   └── WallButton.class
-│   │   ├── MazeOptionPanel
-│   │   │   ├── ExportButton.class
-│   │   │   ├── ImportButton.class
-│   │   │   ├── QuitButton.class
-│   │   │   ├── RebootButton.class
-│   │   │   └── SolveButton.class
-│   │   ├── BoxesPanel.class
-│   │   ├── ButtonPanel.class
-│   │   ├── MBoxPanel.class
-│   │   ├── MazeApp.class
-│   │   ├── MazeOptions.class
-│   │   └── WindowPanel.class
-│   └── Main.class
-├── data
-│   ├── labyrinthe1.txt
-│   ├── labyrinthe2.txt
-│   ├── labyrinthe3.txt
-│   ├── labyrinthe4.txt
-│   ├── labyrinthe5.txt
-│   ├── labyrinthe_copie.txt
-│   └── labyrintheresolu.txt
-├── javadoc
-│   ├── class-use
-│   │   └── Main.html
-│   ├── dijkstra
-│   │   ├── class-use
-│   │   │   ├── ASet.html
-│   │   │   ├── ASetInterface.html
-│   │   │   ├── Dijkstra.html
-│   │   │   ├── GraphInterface.html
-│   │   │   ├── Pi.html
-│   │   │   ├── PiInterface.html
-│   │   │   ├── Previous.html
-│   │   │   ├── PreviousInterface.html
-│   │   │   └── VertexInterface.html
-│   │   ├── ASet.html
-│   │   ├── ASetInterface.html
-│   │   ├── Dijkstra.html
-│   │   ├── GraphInterface.html
-│   │   ├── Pi.html
-│   │   ├── PiInterface.html
-│   │   ├── Previous.html
-│   │   ├── PreviousInterface.html
-│   │   ├── VertexInterface.html
-│   │   ├── package-summary.html
-│   │   ├── package-tree.html
-│   │   └── package-use.html
-│   ├── index-files
-│   │   ├── index-1.html
-│   │   ├── index-10.html
-│   │   ├── index-11.html
-│   │   ├── index-12.html
-│   │   ├── index-13.html
-│   │   ├── index-14.html
-│   │   ├── index-15.html
-│   │   ├── index-16.html
-│   │   ├── index-17.html
-│   │   ├── index-18.html
-│   │   ├── index-2.html
-│   │   ├── index-3.html
-│   │   ├── index-4.html
-│   │   ├── index-5.html
-│   │   ├── index-6.html
-│   │   ├── index-7.html
-│   │   ├── index-8.html
-│   │   └── index-9.html
-│   ├── maze
-│   │   ├── class-use
-│   │   │   ├── ABox.html
-│   │   │   ├── DBox.html
-│   │   │   ├── EBox.html
-│   │   │   ├── MBox.html
-│   │   │   ├── Maze.html
-│   │   │   ├── MazeReadingException.html
-│   │   │   ├── PBox.html
-│   │   │   └── WBox.html
-│   │   ├── ABox.html
-│   │   ├── DBox.html
-│   │   ├── EBox.html
-│   │   ├── MBox.html
-│   │   ├── Maze.html
-│   │   ├── MazeReadingException.html
-│   │   ├── PBox.html
-│   │   ├── WBox.html
-│   │   ├── package-summary.html
-│   │   ├── package-tree.html
-│   │   └── package-use.html
-│   ├── model
-│   │   ├── class-use
-│   │   │   └── MazeAppModel.html
-│   │   ├── MazeAppModel.html
-│   │   ├── package-summary.html
-│   │   ├── package-tree.html
-│   │   └── package-use.html
-│   ├── resources
-│   │   ├── glass.png
-│   │   └── x.png
-│   ├── script-dir
-│   │   ├── images
-│   │   │   ├── ui-bg_glass_55_fbf9ee_1x400.png
-│   │   │   ├── ui-bg_glass_65_dadada_1x400.png
-│   │   │   ├── ui-bg_glass_75_dadada_1x400.png
-│   │   │   ├── ui-bg_glass_75_e6e6e6_1x400.png
-│   │   │   ├── ui-bg_glass_95_fef1ec_1x400.png
-│   │   │   ├── ui-bg_highlight-soft_75_cccccc_1x100.png
-│   │   │   ├── ui-icons_222222_256x240.png
-│   │   │   ├── ui-icons_2e83ff_256x240.png
-│   │   │   ├── ui-icons_454545_256x240.png
-│   │   │   ├── ui-icons_888888_256x240.png
-│   │   │   └── ui-icons_cd0a0a_256x240.png
-│   │   ├── jquery-3.5.1.min.js
-│   │   ├── jquery-ui.min.css
-│   │   ├── jquery-ui.min.js
-│   │   └── jquery-ui.structure.min.css
-│   ├── ui
-│   │   ├── ButtonPanelpack
-│   │   │   ├── class-use
-│   │   │   │   ├── ArrivalButton.html
-│   │   │   │   ├── DepartureButton.html
-│   │   │   │   ├── DimensionButton.html
-│   │   │   │   ├── EmptyButton.html
-│   │   │   │   └── WallButton.html
-│   │   │   ├── ArrivalButton.html
-│   │   │   ├── DepartureButton.html
-│   │   │   ├── DimensionButton.html
-│   │   │   ├── EmptyButton.html
-│   │   │   ├── WallButton.html
-│   │   │   ├── package-summary.html
-│   │   │   ├── package-tree.html
-│   │   │   └── package-use.html
-│   │   ├── MazeOptionPanel
-│   │   │   ├── class-use
-│   │   │   │   ├── ExportButton.html
-│   │   │   │   ├── ImportButton.html
-│   │   │   │   ├── QuitButton.html
-│   │   │   │   ├── RebootButton.html
-│   │   │   │   └── SolveButton.html
-│   │   │   ├── ExportButton.html
-│   │   │   ├── ImportButton.html
-│   │   │   ├── QuitButton.html
-│   │   │   ├── RebootButton.html
-│   │   │   ├── SolveButton.html
-│   │   │   ├── package-summary.html
-│   │   │   ├── package-tree.html
-│   │   │   └── package-use.html
-│   │   ├── class-use
-│   │   │   ├── BoxesPanel.html
-│   │   │   ├── ButtonPanel.html
-│   │   │   ├── MBoxPanel.html
-│   │   │   ├── MazeApp.html
-│   │   │   ├── MazeOptions.html
-│   │   │   └── WindowPanel.html
-│   │   ├── BoxesPanel.html
-│   │   ├── ButtonPanel.html
-│   │   ├── MBoxPanel.html
-│   │   ├── MazeApp.html
-│   │   ├── MazeOptions.html
-│   │   ├── WindowPanel.html
-│   │   ├── package-summary.html
-│   │   ├── package-tree.html
-│   │   └── package-use.html
-│   ├── Main.html
-│   ├── allclasses-index.html
-│   ├── allpackages-index.html
-│   ├── element-list
-│   ├── help-doc.html
-│   ├── index.html
-│   ├── jquery-ui.overrides.css
-│   ├── member-search-index.js
-│   ├── module-search-index.js
-│   ├── overview-summary.html
-│   ├── overview-tree.html
-│   ├── package-search-index.js
-│   ├── package-summary.html
-│   ├── package-tree.html
-│   ├── package-use.html
-│   ├── script.js
-│   ├── search.js
-│   ├── serialized-form.html
-│   ├── stylesheet.css
-│   ├── tag-search-index.js
-│   └── type-search-index.js
-├── src
-│   ├── dijkstra
-│   │   ├── ASet.java
-│   │   ├── ASetInterface.java
-│   │   ├── Dijkstra.java
-│   │   ├── GraphInterface.java
-│   │   ├── Pi.java
-│   │   ├── PiInterface.java
-│   │   ├── Previous.java
-│   │   ├── PreviousInterface.java
-│   │   └── VertexInterface.java
+│   ├── model<br />
+│   │   └── MazeAppModel.class<br />
+│   ├── ui<br />
+│   │   ├── ButtonPanelpack<br />
+│   │   │   ├── ArrivalButton.class<br />
+│   │   │   ├── DepartureButton.class<br />
+│   │   │   ├── DimensionButton.class<br />
+│   │   │   ├── EmptyButton.class<br />
+│   │   │   └── WallButton.class<br />
+│   │   ├── MazeOptionPanel<br />
+│   │   │   ├── ExportButton.class<br />
+│   │   │   ├── ImportButton.class<br />
+│   │   │   ├── QuitButton.class<br />
+│   │   │   ├── RebootButton.class<br />
+│   │   │   └── SolveButton.class<br />
+│   │   ├── BoxesPanel.class<br />
+│   │   ├── ButtonPanel.class<br />
+│   │   ├── MBoxPanel.class<br />
+│   │   ├── MazeApp.class<br />
+│   │   ├── MazeOptions.class<br />
+│   │   └── WindowPanel.class<br />
+│   └── Main.class<br />
+├── data<br />
+│   ├── labyrinthe1.txt<br />
+│   ├── labyrinthe2.txt<br />
+│   ├── labyrinthe3.txt<br />
+│   ├── labyrinthe4.txt<br />
+│   ├── labyrinthe5.txt<br />
+│   ├── labyrinthe_copie.txt<br />
+│   └── labyrintheresolu.txt<br />
+├── javadoc<br />
+│   ├── class-use<br />
+│   │   └── Main.html<br />
+│   ├── dijkstra<br />
+│   │   ├── class-use<br />
+│   │   │   ├── ASet.html<br />
+│   │   │   ├── ASetInterface.html<br />
+│   │   │   ├── Dijkstra.html<br />
+│   │   │   ├── GraphInterface.html<br />
+│   │   │   ├── Pi.html<br />
+│   │   │   ├── PiInterface.html<br />
+│   │   │   ├── Previous.html<br />
+│   │   │   ├── PreviousInterface.html<br />
+│   │   │   └── VertexInterface.html<br />
+│   │   ├── ASet.html<br />
+│   │   ├── ASetInterface.html<br />
+│   │   ├── Dijkstra.html<br />
+│   │   ├── GraphInterface.html<br />
+│   │   ├── Pi.html<br />
+│   │   ├── PiInterface.html<br />
+│   │   ├── Previous.html<br />
+│   │   ├── PreviousInterface.html<br />
+│   │   ├── VertexInterface.html<br />
+│   │   ├── package-summary.html<br />
+│   │   ├── package-tree.html<br />
+│   │   └── package-use.html<br />
+│   ├── index-files<br />
+│   │   ├── index-1.html<br />
+│   │   ├── index-10.html<br />
+│   │   ├── index-11.html<br />
+│   │   ├── index-12.html<br />
+│   │   ├── index-13.html<br />
+│   │   ├── index-14.html<br />
+│   │   ├── index-15.html<br />
+│   │   ├── index-16.html<br />
+│   │   ├── index-17.html<br />
+│   │   ├── index-18.html<br />
+│   │   ├── index-2.html<br />
+│   │   ├── index-3.html<br />
+│   │   ├── index-4.html<br />
+│   │   ├── index-5.html<br />
+│   │   ├── index-6.html<br />
+│   │   ├── index-7.html<br />
+│   │   ├── index-8.html<br />
+│   │   └── index-9.html<br />
+│   ├── maze<br />
+│   │   ├── class-use<br />
+│   │   │   ├── ABox.html<br />
+│   │   │   ├── DBox.html<br />
+│   │   │   ├── EBox.html<br />
+│   │   │   ├── MBox.html<br />
+│   │   │   ├── Maze.html<br />
+│   │   │   ├── MazeReadingException.html<br />
+│   │   │   ├── PBox.html<br />
+│   │   │   └── WBox.html<br />
+│   │   ├── ABox.html<br />
+│   │   ├── DBox.html<br />
+│   │   ├── EBox.html<br />
+│   │   ├── MBox.html<br />
+│   │   ├── Maze.html<br />
+│   │   ├── MazeReadingException.html<br />
+│   │   ├── PBox.html<br />
+│   │   ├── WBox.html<br />
+│   │   ├── package-summary.html<br />
+│   │   ├── package-tree.html<br />
+│   │   └── package-use.html<br />
+│   ├── model<br />
+│   │   ├── class-use<br />
+│   │   │   └── MazeAppModel.html<br />
+│   │   ├── MazeAppModel.html<br />
+│   │   ├── package-summary.html<br />
+│   │   ├── package-tree.html<br />
+│   │   └── package-use.html<br />
+│   ├── resources<br />
+│   │   ├── glass.png<br />
+│   │   └── x.png<br />
+│   ├── script-dir<br />
+│   │   ├── images<br />
+│   │   │   ├── ui-bg_glass_55_fbf9ee_1x400.png<br />
+│   │   │   ├── ui-bg_glass_65_dadada_1x400.png<br />
+│   │   │   ├── ui-bg_glass_75_dadada_1x400.png<br />
+│   │   │   ├── ui-bg_glass_75_e6e6e6_1x400.png<br />
+│   │   │   ├── ui-bg_glass_95_fef1ec_1x400.png<br />
+│   │   │   ├── ui-bg_highlight-soft_75_cccccc_1x100.png<br />
+│   │   │   ├── ui-icons_222222_256x240.png<br />
+│   │   │   ├── ui-icons_2e83ff_256x240.png<br />
+│   │   │   ├── ui-icons_454545_256x240.png<br />
+│   │   │   ├── ui-icons_888888_256x240.png<br />
+│   │   │   └── ui-icons_cd0a0a_256x240.png<br />
+│   │   ├── jquery-3.5.1.min.js<br />
+│   │   ├── jquery-ui.min.css<br />
+│   │   ├── jquery-ui.min.js<br />
+│   │   └── jquery-ui.structure.min.css<br />
+│   ├── ui<br />
+│   │   ├── ButtonPanelpack<br />
+│   │   │   ├── class-use<br />
+│   │   │   │   ├── ArrivalButton.html<br />
+│   │   │   │   ├── DepartureButton.html<br />
+│   │   │   │   ├── DimensionButton.html<br />
+│   │   │   │   ├── EmptyButton.html<br />
+│   │   │   │   └── WallButton.html<br />
+│   │   │   ├── ArrivalButton.html<br />
+│   │   │   ├── DepartureButton.html<br />
+│   │   │   ├── DimensionButton.html<br />
+│   │   │   ├── EmptyButton.html<br />
+│   │   │   ├── WallButton.html<br />
+│   │   │   ├── package-summary.html<br />
+│   │   │   ├── package-tree.html<br />
+│   │   │   └── package-use.html<br />
+│   │   ├── MazeOptionPanel<br />
+│   │   │   ├── class-use<br />
+│   │   │   │   ├── ExportButton.html<br />
+│   │   │   │   ├── ImportButton.html<br />
+│   │   │   │   ├── QuitButton.html<br />
+│   │   │   │   ├── RebootButton.html<br />
+│   │   │   │   └── SolveButton.html<br />
+│   │   │   ├── ExportButton.html<br />
+│   │   │   ├── ImportButton.html<br />
+│   │   │   ├── QuitButton.html<br />
+│   │   │   ├── RebootButton.html<br />
+│   │   │   ├── SolveButton.html<br />
+│   │   │   ├── package-summary.html<br />
+│   │   │   ├── package-tree.html<br />
+│   │   │   └── package-use.html<br />
+│   │   ├── class-use<br />
+│   │   │   ├── BoxesPanel.html<br />
+│   │   │   ├── ButtonPanel.html<br />
+│   │   │   ├── MBoxPanel.html<br />
+│   │   │   ├── MazeApp.html<br />
+│   │   │   ├── MazeOptions.html<br />
+│   │   │   └── WindowPanel.html<br />
+│   │   ├── BoxesPanel.html<br />
+│   │   ├── ButtonPanel.html<br />
+│   │   ├── MBoxPanel.html<br />
+│   │   ├── MazeApp.html<br />
+│   │   ├── MazeOptions.html<br />
+│   │   ├── WindowPanel.html<br />
+│   │   ├── package-summary.html<br />
+│   │   ├── package-tree.html<br />
+│   │   └── package-use.html<br />
+│   ├── Main.html<br />
+│   ├── allclasses-index.html<br />
+│   ├── allpackages-index.html<br />
+│   ├── element-list<br />
+│   ├── help-doc.html<br />
+│   ├── index.html<br />
+│   ├── jquery-ui.overrides.css<br />
+│   ├── member-search-index.js<br />
+│   ├── module-search-index.js<br />
+│   ├── overview-summary.html<br />
+│   ├── overview-tree.html<br />
+│   ├── package-search-index.js<br />
+│   ├── package-summary.html<br />
+│   ├── package-tree.html<br />
+│   ├── package-use.html<br />
+│   ├── script.js<br />
+│   ├── search.js<br />
+│   ├── serialized-form.html<br />
+│   ├── stylesheet.css<br />
+│   ├── tag-search-index.js<br />
+│   └── type-search-index.js<br />
+├── src<br />
+│   ├── dijkstra<br />
+│   │   ├── ASet.java<br />
+│   │   ├── ASetInterface.java<br />
+│   │   ├── Dijkstra.java<br />
+│   │   ├── GraphInterface.java<br />
+│   │   ├── Pi.java<br />
+│   │   ├── PiInterface.java<br />
+│   │   ├── Previous.java<br />
+│   │   ├── PreviousInterface.java<br />
+│   │   └── VertexInterface.java<br />
 │   ├── maze
 │   │   ├── ABox.java
 │   │   ├── DBox.java
