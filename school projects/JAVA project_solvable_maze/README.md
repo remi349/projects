@@ -5,27 +5,27 @@ More details can be found on how the code is structured in the javadoc generated
 
 ## Structure of the code
 
-.
-├── bin
-│   ├── dijkstra
-│   │   ├── ASet.class
-│   │   ├── ASetInterface.class
-│   │   ├── Dijkstra.class
-│   │   ├── GraphInterface.class
-│   │   ├── Pi.class
-│   │   ├── PiInterface.class
-│   │   ├── Previous.class
-│   │   ├── PreviousInterface.class
-│   │   └── VertexInterface.class
-│   ├── maze
-│   │   ├── ABox.class
-│   │   ├── DBox.class
-│   │   ├── EBox.class
-│   │   ├── MBox.class
-│   │   ├── Maze.class
-│   │   ├── MazeReadingException.class
-│   │   ├── PBox.class
-│   │   └── WBox.class
+.<br />
+├── bin<br />
+│   ├── dijkstra<br />
+│   │   ├── ASet.class<br />
+│   │   ├── ASetInterface.class<br />
+│   │   ├── Dijkstra.class<br />
+│   │   ├── GraphInterface.class<br />
+│   │   ├── Pi.class<br />
+│   │   ├── PiInterface.class<br />
+│   │   ├── Previous.class<br />
+│   │   ├── PreviousInterface.class<br />
+│   │   └── VertexInterface.class<br />
+│   ├── maze<br />
+│   │   ├── ABox.class<br />
+│   │   ├── DBox.class<br />
+│   │   ├── EBox.class<br />
+│   │   ├── MBox.class<br />
+│   │   ├── Maze.class<br />
+│   │   ├── MazeReadingException.class<br />
+│   │   ├── PBox.class<br />
+│   │   └── WBox.class<br />
 │   ├── model
 │   │   └── MazeAppModel.class
 │   ├── ui
