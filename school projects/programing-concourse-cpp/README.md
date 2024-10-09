@@ -9,7 +9,7 @@ The form of the input/output for each problems file depends on every problem and
 ├── problem_i<br />
 │   ├── problem_i_code.cpp<br />
 │   ├── problem_i_executive_file.exe<br />
-│   └── problem_n°i_instructions.pdf<br />
+│   └── problem_i_instructions.pdf<br />
 |   ...<br />
 └── README.md<br />
 
