@@ -17,9 +17,9 @@ Nota Bene the CSV_file must be in the same shame as the test.csv file (two colum
 Many big grahs can be found [here](https://snap.stanford.edu/data/).
 
 ## Organisation of the project
-.
-├── README.md
-├── code.py
-├── code_explained.pdf
-├── requirements.txt
-└── test.csv
+.<br />
+├── README.md<br />
+├── code.py<br />
+├── code_explained.pdf<br />
+├── requirements.txt<br />
+└── test.csv<br />
