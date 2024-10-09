@@ -228,35 +228,35 @@ More details can be found on how the code is structured in the javadoc generated
 │   │   ├── Previous.java<br />
 │   │   ├── PreviousInterface.java<br />
 │   │   └── VertexInterface.java<br />
-│   ├── maze
-│   │   ├── ABox.java
-│   │   ├── DBox.java
-│   │   ├── EBox.java
-│   │   ├── MBox.java
-│   │   ├── Maze.java
-│   │   ├── MazeReadingException.java
-│   │   ├── PBox.java
-│   │   └── WBox.java
-│   ├── model
-│   │   └── MazeAppModel.java
-│   ├── ui
-│   │   ├── ButtonPanelpack
-│   │   │   ├── ArrivalButton.java
-│   │   │   ├── DepartureButton.java
-│   │   │   ├── DimensionButton.java
-│   │   │   ├── EmptyButton.java
-│   │   │   └── WallButton.java
-│   │   ├── MazeOptionPanel
-│   │   │   ├── ExportButton.java
-│   │   │   ├── ImportButton.java
-│   │   │   ├── QuitButton.java
-│   │   │   ├── RebootButton.java
-│   │   │   └── SolveButton.java
-│   │   ├── BoxesPanel.java
-│   │   ├── ButtonPanel.java
-│   │   ├── MBoxPanel.java
-│   │   ├── MazeApp.java
-│   │   ├── MazeOptions.java
-│   │   └── WindowPanel.java
-│   └── Main.java
-└── README.md
+│   ├── maze<br />
+│   │   ├── ABox.java<br />
+│   │   ├── DBox.java<br />
+│   │   ├── EBox.java<br />
+│   │   ├── MBox.java<br />
+│   │   ├── Maze.java<br />
+│   │   ├── MazeReadingException.java<br />
+│   │   ├── PBox.java<br />
+│   │   └── WBox.java<br />
+│   ├── model<br />
+│   │   └── MazeAppModel.java<br />
+│   ├── ui<br />
+│   │   ├── ButtonPanelpack<br />
+│   │   │   ├── ArrivalButton.java<br />
+│   │   │   ├── DepartureButton.java<br />
+│   │   │   ├── DimensionButton.java<br />
+│   │   │   ├── EmptyButton.java<br />
+│   │   │   └── WallButton.java<br />
+│   │   ├── MazeOptionPanel<br />
+│   │   │   ├── ExportButton.java<br />
+│   │   │   ├── ImportButton.java<br />
+│   │   │   ├── QuitButton.java<br />
+│   │   │   ├── RebootButton.java<br />
+│   │   │   └── SolveButton.java<br />
+│   │   ├── BoxesPanel.java<br />
+│   │   ├── ButtonPanel.java<br />
+│   │   ├── MBoxPanel.java<br />
+│   │   ├── MazeApp.java<br />
+│   │   ├── MazeOptions.java<br />
+│   │   └── WindowPanel.java<br />
+│   └── Main.java<br />
+└── README.md<br />
