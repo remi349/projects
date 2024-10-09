@@ -1,0 +1,113 @@
+=== Scénario de départ
+
+Une personne arrive avec des idées d’endroit à visiter dans Paris.
+
+Elle fournit à l'application les informations suivantes :
+
+- Nom
+
+- Prénom
+
+- Age
+
+- Adresse mail
+
+Elle peut ensuite choisir les différents lieux touristiques qu'elle souhaite visiter, la durée de son séjour et son budget.
+
+L’application lui présente alors différents itinéraires pour tout visiter en gérant les problèmes d’affluence.
+Elle propose également de visiter certains lieux qui ont plu à des utilisateurs similaires.
+L'application simplifie l'achat des billets en proposant facilement les liens vers les sites de réservation adéquats pour les lieux choisis.
+De même, dans chaque proposition d'itinéraire, un panier adapté permet d'acheter les tickets RATP sur le site.
+
+Lors de ses déplacements, l'utilisateur se repère à l'aide d'une carte. Sur cette dernière sont également indiqués les sites touristiques les plus proches. Il dispose d'une interface de modification du planning de visite simple et ergonomique à partir de laquelle il peut décider de mettre en pause le trajet planifié pour visiter l'un de ces lieux. En cliquant sur le lieu, il obtient des informations sur celui-ci comme l'itinéraire et l'affluence. 
+L'application lui propose également un système de création d'événements: lorsqu’il y a des événements éphémères (spectacles de rue, concerts de rue, expositions temporaires) l'utilisateur peut créer des événements visibles sur la carte, en postant des photos, des commentaires etc…
+
+Si pour une raison ou une autre un trajet en cours est interrompu puis redémarré par l’utilisateur, l'application lui propose un autre trajet en prenant en compte les endroits déjà visités.
+
+=== Scénario final
+
+Une personne veut passer la journée dans Paris, mais elle ne sait pas précisement quoi faire.
+
+Elle démarre l'application, dans laquelle elle a rentré les informations suivantes lors de la première utilisation:
+
+- Nom
+
+- Prénom
+
+- Age
+
+- Adresse mail
+
+En fonction de différents paramètres tels que la localisation actuelle, les facteurs météos, l'affluence actuelle, le prix de la visite, l'application calcule les lieux touristiques les plus intéressants pour l'utilisateur et lui en propose quelques uns tout en détaillant les raisons de ce choix.
+Au fur et à mesure des visites, l'algorithme détermine quels sont les paramètres les plus pertinents pour l'utilisateur grâce à un système d'apprentissage.
+
+Lors de ses déplacements, l'utilisateur se repère à l'aide d'une carte. Sur cette dernière sont également indiqués les sites touristiques les plus proches. En cliquant sur le lieu, il obtient des informations sur celui-ci comme l'itinéraire et l'affluence. 
+L'application lui propose également un système de création d'événements: lorsqu’il y a des événements éphémères (spectacles de rue, concerts de rue, expositions temporaires) l'utilisateur peut créer des événements visibles sur la carte, en postant des photos, des commentaires etc…
+
+=== Différence entre les scénarios 
+
+En parlant avec les experts, nous nous sommes rendus compte qu'un système dynamique pouvait être plus intéressant que le système statique prévu initialement. 
+Nous avons donc décidé de changer le scénario: 
+
+- Suppression de la notion de trajet afin d'avoir un scénario plus dynamique.
+
+- Suppression de la fonctionnalité d'achat de tickets : peu pertinente dans le contexte dynamique, on n'achète plus les tickets à l'avance.
+
+- Modification du contexte d'utilisation de l'application: utilisable par les touristes, mais aussi les parisiens souhaitant sortir un WeekEnd par exemple.
+
+- Modification du système de recommandation: prise en compte des paramètres dynamiques (météo, affluence en temps réel, événements éphémères etc...)
+ 
+- Ajout d'explications concernant la recommandation des lieux touristiques (par exemple: recommandation d'un parc parceque la  météo est avantageuse etc...)
+
+- Ajout de l'apprentissage pour avoir des recommandations personnalisées.
+
+
+=== Critique initiale
+
+Notre application est destinée aux touristes mais aussi aux villes qui veulent désengorger certains de leurs sites touristiques. Notre application va utiliser un algorithme basé sur la recommandation par similitude de lieux touristiques en fonction de ceux qui nous intéressent. L'enjeu est aussi de prendre en compte les prévisions d'affluences et les affluences en temps réel des lieux touristiques. Pour cela nous comptons utiliser les API Google. 
+La valeur ajoutée de notre application est de permettre à l'utilisateur de prévoir sa visite en prenant en compte les temps d'affluence afin que son temps d'attente dans chaque site touristique soit minimale. La valeur ajoutée pour les villes est que certains sites vont être désengorger au profit d'autres lieux moins connus. Dans un premier temps, nous comptons juste adapter notre application à la ville de Paris. Dans notre application, nous devrons avoir accès à la localisation de l'utilisateur et à certaines de ses données personnelles, il est donc nécessaire de protéger ces données.
+
+=== Critique finale
+
+Nous nous sommes rendus compte qu'il était plus intéressant pour l'utilisateur de rendre notre application plus dynamique. Afin que l'application soit plus dynamique, nous avons décidé d'utiliser la théorie de la simplicité qui permet de prendre en compte les goûts de l'utilisateur, certains paramètres extérieurs (météo, affluence, prix des activités) et d'apporter un effet de surprise. Grâce au serveur, les touristes peuvent ajouter des attractions touristiques (qui peuvent être éphémères) sur la carte afin que les autres utilisateurs puissent les découvrir. Il est donc nécessaire de récupérer la localisation de l'utilisateur et certaines de ses données afin d'optimiser notre algorithme. Notre application n'est toujours adaptée qu'à la ville de Paris pour le moment. 
+En recommandant des lieux à proximité du touriste, notre application lui permet de se déplacer à pied et donc de réduire son empreinte carbone en ne prenant pas la voiture.
+
+=== Bilan de synthèse
+
+Les changements principaux qu’a connu notre projet sont le type d’utilisateur ciblé et le passage d’un système statique à un système dynamique.
+
+Au départ, l’application ne visait que des touristes de passage à Paris. 
+Maintenant, elle vise aussi bien les touristes que les parisiens souhaitant simplement passer une journée à Paris sans se prendre la tête. 
+L’un des avantages de nos modifications est donc d’avoir réussi à élargir le public ciblé.
+
+C’est le passage d’un système statique, dans lequel l’utilisateur doit sélectionner un trajet à l’avance, à un système dynamique dans lequel la recommandation de trajet se fait en temps réel et s’adapte aux paramètres actuels qui a permis ce changement de cible. 
+De plus, ce genre de système favorise la surprise et s’adapte plus facilement à des paramètres qu’il est difficile de prévoir comme la météo, l’affluence etc… 
+On peut cependant penser que certaines personnes, qui aiment planifier leur voyage à l’avance, apprécieront moins l’application et souhaiteront planifier le voyage de leur côté.
+
+Nous avons également modifié le type d’algorithme de recommandation, qui est passé d’un algorithme de recommandation par similitude à un algorithme prenant compte de bien plus de paramètres, dont notamment le côté surprenant d’une proposition.
+Les aspects techniques sont donc bien plus poussés et pertinents que ceux de la proposition initiale.
+
+L’un des inconvénients principaux de notre application reste la gestion des données personnelles. En effet, nous avons besoin de beaucoup de données sensibles, dont la localisation en temps réel, l’âge etc… Il faut donc pouvoir sécuriser ces données au maximum, ce qui n’est pas le cas actuellement.
+
+Si le projet était à refaire maintenant, nous serions directement partis sur le système dynamique sans perdre de temps sur le système statique. Ce qui nous aurait permis d’avancer plus vite et d’ajouter des fonctionnalités supplémentaires, comme celles que nous allons préciser dans le paragraphe suivant.
+
+=== Conclusion et perspectives
+
+Si notre projet devait continuer, le premier enjeu serait d'avoir la base de données d'activités à faire à Paris la plus fournie possible.
+Ensuite, nous pourrions étendre l'application à d'autres grandes villes. 
+Puisque nous avons déjà l'algorithme et la base du code de l'application, il suffirait d'adapter la base de données et légérement le code pour changer de ville. 
+On avait également pensé à des fonctionnalités supplémentaires qu'il serait intéressant d'ajouter.
+Par exemple: 
+
+-Ajouter un système de badges recompensant les utilisateurs les plus aguerris, ce qui inciterait à une utilisation plus fréquente de l'application.
+
+-Adapter l'algorithme afin que le poids de chaque paramètre soit personnalisé pour chaque utilisateur grâce à un algorithme d'apprentissage.  
+
+-Ajouter également le système de trajets statiques pour les utilisateurs souhaitant planifier leur voyage à l'avance.
+
+
+//Mettre ici le scénario d’usage que vous avez construit lors des séances
+//encadrées par les experts SES. Vous pouvez mettre un scénario amélioré
+//(et non celui noté) si vous jugez votre scénario insuffisant pour faire
+//comprendre au jury PACT les différentes étapes d’utilisation de votre
+//produit/service ou si vous avez changé d’idées entre-temps.

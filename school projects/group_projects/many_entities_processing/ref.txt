@@ -1,0 +1,20 @@
+Boid Algorithm: Flocking by Daniel Shiffman
+https://processing.org/examples/flocking.html
+
+Polynomial Regression:
+https://en.wikipedia.org/wiki/Polynomial_regression#Definition_and_example
+A Short Course on Nonparametric Curve Estimation by Eduardo Garcia-Portugues
+N
+
+Linear Regression:
+https://en.wikipedia.org/wiki/Linear_regression
+
+Bézier curves:
+https://en.wikipedia.org/wiki/B%C3%A9zier_curve
+
+Vandermonde inverse matrix: Inverse of the Vandermonde matrix with applications by L. Richard Turner
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.102.2019&rep=rep1&type=pdf
+
+Matrix Processing Library:
+Author : authors=[Pallav dubey](https://github.com/pallav12/)
+url=http://github.com/pallav12/matrixMath-for-processing

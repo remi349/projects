@@ -1,0 +1,14 @@
+=== Deadlines de chaque taches
+
+===== à l'attention du module Test et intégration
+
+
+[cols=",^,^,,",options="header",]
+|====
+|Module |Tache à Réaliser |Deadline de prévu |Nécessité d'un module Test |Module Test près
+|Interface graphique | | | |
+|Communication Client Serveur | | | |
+|Algorithme | | | |
+|IA| | | |
+|Web sémantique | | | |
+|====

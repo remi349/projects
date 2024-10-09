@@ -1,0 +1,134 @@
+= Rapport d’avancement du groupe “7.3”
+PACT groupe 7.3 (Les Licornettes)
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+:doctype: book
+:stem: latexmath
+:source-highlighter: coderay
+:toc-title: Table des matières
+:toc: macro
+:sectnums:
+:imagesdir: images
+
+
+// Partie non numérotée
+:sectnums!:
+== « Les Licornettes »
+
+=== Membres du groupe
+
+* Bonneau Alexis
+* Ducottet Rémi
+* Guerrini Valerio
+* Ihadadene Cilia
+* Mangin Tristan
+* Poirson Clément
+
+=== Tuteur
+
+* Linguaglossa Leonardo
+
+=== Encadrant génie logiciel
+
+* Maman Lucien
+
+== Résumé du sujet choisi en français (PAN1)
+
+//*_Note: 15 lignes max_*
+
+Nous souhaitons créer une application qui permettrait de guider les touristes dans leur visite d’une grande ville (ici Paris).
+
+Après avoir fourni différentes informations à l’application dont les visites qu’il souhaite effectuer, le touriste se voit proposer différents itinéraires. Ces derniers prennent en compte la durée du trajet basée sur le déplacement à pied et par transports en commun. De plus, ces temps de trajet sont pondérés par les temps d’attente dans les sites touristiques. L’application faciliterait la planification du séjour et permettrait notamment la réservation de billets en ligne (lieux touristiques et tickets RATP).
+
+Au cours de ses déplacements, le touriste est guidé à l’aide d’une carte, sur laquelle apparaissent les lieux touristiques voisins. Il est alors possible de modifier aisément l'agenda.
+
+Ce projet permet de réduire considérablement les temps d'attente et permet ainsi la visite d'un plus grand nombre de lieux touristiques. De cette façon et avec la mise en avant des lieux voisins, il est possible de faire de nouvelles découvertes. Cette application représente un véritable défi technique pour notre groupe. Cependant, il nous semble réalisable.
+
+
+== English Summary (PAN1)
+
+//*_Note : 15 lignes max, version anglaise du texte précédent_*
+
+We are aiming to create an app which would guide tourists in their tour in a big city (here Paris).
+
+After filling different details on the app including the visits that he wishes to make, the tourist is proposed many routes. These routes take into account the duration of the path based on the travelling on foot or by public transport. Moreover, these duration are weighted by the waiting times in touristic locations. The app would make easier the planning of the trip and would allow the booking of tickets online - for touristic locations and RATP.
+
+During its journey, the tourist is guided thanks to a map on which are shown close touristic locations. It is thus possible to simply modify the planning of the day.
+
+This project allows the massive reduction of waiting times and, thus, allows the visit of a greater number of touristic locations. Combined with the highlighting of close touristic sites, it is possible to make new discoveries. This app represents a genuine technical challenge for our group. However, it seems feasable.
+
+//*Notes concenant le rapport*
+
+//Les différentes pages du document sont rédigées en utilisant le langage
+//AsciiDoc. Le squelette de rapport contient des exemples avec entre autres:
+
+//* des images,
+//* des liens,
+//* des équations.
+
+//La structure du rapport (parties, sections et la relation avec les
+//différents fichiers) se trouve dans le fichier courant.
+
+//**Prenez le temps** de supprimer le texte de remplissage et les sections non
+//utilisées pour l'instant. Vous pouvez par exemple commenter ces parties non
+//utilisées pour qu'elles n'apparaissent pas dans le document final. En Asciidoc,
+//il suffit de les précéder de deux slashs (`//`).
+
+// en PDF on ne peut pas controler la position de la toc
+// Macros non supportées
+ifndef::backend-pdf[]
+== Table des matières
+:toc-title:
+toc::[]
+endif::[]
+
+// On numérote le reste des sections
+:sectnums:
+
+== Étude d’antériorité et justification de la proposition (PAN1)
+
+include::proposition/proposition.adoc[Description de la proposition]
+
+include::proposition/etat-de-l-art.adoc[Description de l’état de l’art]
+
+== Scénarios d’usage (PAN1)
+
+include::scenario/scenario.adoc[Scénarios d’usage]
+
+<<<
+
+== Architecture du projet (PAN1)
+
+include::architecture/schema.adoc[Schéma d’architecture]
+
+include::architecture/interfaces.adoc[Description des interfaces]
+
+include::architecture/sequence.adoc[Diagramme de séquence]
+
+include::architecture/ihm.adoc[Interface utilisateur graphique]
+
+<<<
+
+== Organisation du projet (PAN1)
+
+include::organisation/planification.adoc[Diagramme de planification temporel des tâches]
+
+include::organisation/plan-tests.adoc[Plans de test (PAN2+)]
+
+<<<
+
+[bibliography]
+== Bibliographie (PAN1+)
+
+include::References.adoc[Bibliographie]
+
+<<<
+
+== Annexes
+
+include::annexes/modifications.adoc[Modifications (PAN2+)]
+
+include::annexes/avancement.adoc[Avancement des modules]
+
+include::annexes/moduleX.adoc[Avancement module X]
+
+include::annexes/moduleY.adoc[Avancement module Y]

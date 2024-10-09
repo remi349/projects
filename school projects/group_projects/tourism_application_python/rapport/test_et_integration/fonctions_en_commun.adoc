@@ -1,0 +1,23 @@
+=== Fonctions en commun
+
+===== à l'attention du module Test et intégration
+
+
+[cols=",^,^,,",options="header",]
+[cols=3]
+|===
+|fonction |Utilite |Modules 
+
+| get_rain_percent_from_api|renvoie le pourcentage de pluie de la journée 
+|API, Algo
+
+|get_sun_percent_from_api|renvoie le pourcentage de soleil de la journée 
+|Interface graphique et API
+|get_activities_from_API| renvoie une liste d'activités, une activité ayant la structure [prix, localisation, booléen qui dit si on est dehors ou pas, dimension de l'activité(genre plus grosse longueure, plus grosse largeur....), description de l'activité| API et Algorithme
+|get_temperature_from_api|renvoie la température dans Paris | Algorithmic et API
+|get_affluence_from_API(lieu)|renvoie l'affluence d'un lieu|Algorithmic et API
+|get_avg_affluence_from_API(lieu)|calcule l'affluence moyenne sur cette horaire sur la semaine(genre somme sur les jours de la semaine on somme l'affluence à cet horaire et on divise tout ça par 7) | Algorithme et API
+|get_self_localisation |donne notre localisation [latitude, longitude] | Algorithme et Android
+|get_number_of_day()  | donne le jour de l'année, retourne un entier | Algorithme et API
+|get_is_open_response_from_api(place_Id, day) | dit si le lieu touristique est ouvert | Algorithme et API 
+|===

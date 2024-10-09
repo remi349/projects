@@ -1,0 +1,125 @@
+=== Planning temporel PACT
+
+==== Taches / PAN1 18/11/21
+
+===== Générales
+
+* Rapport:
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|Sujet | Alexis Tristan | 09/11 | Oui |
+|Sujet en anglais | Alexis Tristan | 09/11 | Oui |
+|Scénario | Alexis Tristan | 09/11 | Oui |
+|Etat de l'art | Tristan | 08/11 & 10/11 | Oui |
+|Architecture (schéma et documentation) | Rémi Valerio Cilia Clément | 10/11 | Oui |
+|Description des blocs | Cilia | 14/11 | Oui |
+|Découpage en modules | Rémi Cilia | 09/11 | Oui |
+|Présentation type aux experts | Alexis Tristan | 09/11 | Oui |
+|Recherche d'experts | Tous | 09/11 - ... | En attente |
+|Interface utilisateur | Rémi Valerio Cilia Clément | 08/11 - 09/11 | Oui |
+|Description précise de l'application | Clément | 09/11 & 14/11 | Oui |
+|Android Studio | Valerio Clément | 09/11 | Oui |
+|Gestion GitLab | Alexis | Novembre | Oui |
+|Planning temporel (ce document, personnalisé) | Alexis | Septembre - Novembre | Oui |
+|====
+
+* Présentation 15mn
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|Préparation du document | Valerio Rémi | 14/11 | Oui |
+|Répartition de la parole | Tous | 14/11 | Oui |
+|Répétition | Tous | 17/11 et 18/11 | Oui |
+|====
+
+==== Taches / PAN2 25/01/22
+
+===== Générales
+
+* Rapport
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|Mise à jour selon remarques du jury | Tous | 01/12 | Oui |
+|Mise à jour de l’architecture | Cilia Rémi | 01/12 | Oui |
+|Interfaces | | | |
+|Plan de test par module et global | | | |
+|Avancement | | | |
+|====
+
+* Prendre rdv avec vos experts pour le PAN2
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|Android | | | |
+|API Web | Alexis Tristan | 01/12 | Oui |
+|Algorithmie | | | |
+|Intelligence Artificielle | | | |
+|Génie Logiciel (Tests et Intégration) | | | |
+|Client-Serveur | Alexis | 01/12 | Oui mais il n'est pas venu |
+|SES | | | |
+|====
+
+===== Modules
+
+* Android
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Installation de l’outil Android Studio | 09/11 | |
+|TP Android | | |
+|Squelette d’application | | |
+|GUI | | |
+|Plan de test | | |
+|====
+
+* Autres modules
+
+==== Tâches / PAN3 19/04/22
+
+===== Générales
+
+* Préparer un déroulé de la démo et du ``matériel'' de démo
+
+===== Modules
+
+* Android
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|asynctask pour client-serveur | | |
+|feature 1 | | |
+|feature 2 | | |
+|test | | |
+|====
+
+* …
+
+==== Tâches / PAN4 31/05/22
+
+===== Générales
+
+* poster pour le stand
+* présentation 4 slides
+* rapport: avancement, rapports de test
+
+===== Modules
+
+* Android
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|feature 8 | | |
+|feature 9 | | |
+|test | | |
+|====
+
+* …

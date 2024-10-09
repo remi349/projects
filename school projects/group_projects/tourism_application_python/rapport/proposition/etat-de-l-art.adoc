@@ -1,0 +1,36 @@
+=== Description de l’état de l’art
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+
+//*_Note : 1 page max._*
+
+//Décrivez, en les citant via la bibliographie, les approches/produits
+//ressemblant à votre projet et les différences éventuelles. Illustrez
+//avec des images si besoin. Utilisez des renvois vers votre
+//bibliographie : « comme démontré dans [2], … »
+
+Affluence est une application référençant une grande partie des musées et des monuments de Paris. Sur cette application, il est possible de connaître les temps d'attente approximatifs à chaque heure de la journée pour le site touristisque choisi. Il est également possible de réserver sa place en ligne. 
+
+Google donne les affluences des différents sites touristiques de Paris pour chaque heure de la journée.
+
+Google Travel est un site Internet référençant les sites touristiques à Paris. Il les classe des plus connus aux moins connus avec un système de notation utilisable par tous les utilisateurs. Il affiche de plus une carte de Paris en montrant la location de chaque site touristique.
+
+City Mapper est une application permettant de déterminer un trajet en transport en commun entre deux endroits dans une même ville. Elle ne donne aucune indication sur les sites touristiques de la ville.
+
+Monument Tracker est une application permettant de connaître les monuments à proximité de soi et leur histoire en détail.
+
+
+Notre application se distinguerait de celles-ci par le fait que, une fois les sites touristiques et les informations (de l'utilisateur) renseignés, elle proposerait un itinéraire optimisé pour la visite des lieux choisis ainsi que des recommandations spécifiques à l'utilisateur.
+
+
+
+//==== Exemples de citations
+
+//Les références bibliographiques sont regroupées dans le fichier `References.adoc`
+//à la racine du répertoire `rapport`.
+//On peut y faire référence dans toutes les sous parties du document.
+
+//On peut citer comme exemple l'article de Claude E. Shannon sur la
+//théorie de la communication <<RefShannon>>
+//ou, bien évidement, la vitrine des projets PACT <<VitrinePACT>>.
+
+//Voir <<TOTO,la référence>> très intéressante elle aussi.

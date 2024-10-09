@@ -1,0 +1,30 @@
+filename, N1, N2
+deplacement_30_6_10_40_56, 50, 50
+
+10, 90, deplacement_30_6_10_46_55
+20, 80, deplacement_30_6_10_47_37
+30, 70, deplacement_30_6_10_48_18
+40, 60, deplacement_30_6_10_48_58
+50, 50, deplacement_30_6_10_49_35
+60, 40, deplacement_30_6_10_50_16
+70, 30, deplacement_30_6_10_51_7
+80, 20, deplacement_30_6_10_51_45
+90, 10, deplacement_30_6_10_53_17
+
+
+
+    int N1 = 10;
+    float std1 = 10;
+    float x1 = 50;
+    float y1 = 280;
+    float angle1 = 0;
+    flock.addCluster(N1, x1, y1, std1, angle1);
+    
+    int N2 = 90;
+    float std2 = 10;
+    float x2 = 280;
+    float y2 = 50;
+    float angle2 = PI/2;
+    flock.addCluster(N2, x2, y2, std2, angle2);
+
+

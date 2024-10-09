@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:background="@drawable/round_corner_appcolor">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_remove_24" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner_white"
+        android:layout_margin="16dp"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/visit_recommendation1"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_corner_white">
+
+        <ImageView
+            android:id="@+id/visit_recommendation_imageview1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/ic_baseline_highlight_off_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"/>
+
+        <TextView
+            android:id="@+id/visit_recommendation_textview1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing_to_do_here"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/visit_recommendation_description_textview1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/visit_recommendation_imageview1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/visit_recommendation_description_textview1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="2dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/visit_recommendation_imageview1"
+            app:layout_constraintTop_toBottomOf="@id/visit_recommendation_textview1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/visit_recommendation2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/round_corner_white">
+
+        <ImageView
+            android:id="@+id/visit_recommendation_imageview2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/ic_baseline_highlight_off_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"/>
+
+        <TextView
+            android:id="@+id/visit_recommendation_textview2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing_to_do_here"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/visit_recommendation_description_textview2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/visit_recommendation_imageview2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/visit_recommendation_description_textview2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="2dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/visit_recommendation_imageview2"
+            app:layout_constraintTop_toBottomOf="@id/visit_recommendation_textview2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/visit_recommendation3"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/round_corner_white">
+
+        <ImageView
+            android:id="@+id/visit_recommendation_imageview3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:src="@drawable/ic_baseline_highlight_off_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"/>
+
+        <TextView
+            android:id="@+id/visit_recommendation_textview3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nothing_to_do_here"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintBottom_toTopOf="@id/visit_recommendation_description_textview3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/visit_recommendation_imageview3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/visit_recommendation_description_textview3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="2dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/visit_recommendation_imageview3"
+            app:layout_constraintTop_toBottomOf="@id/visit_recommendation_textview3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
