@@ -5,13 +5,13 @@ This Folder contains my solutions in C++ of some problems for the competitive pr
 The form of the input/output for each problems file depends on every problem and is explained in 
 
 ## Organisation of the repertory
-.
-├── problem_i
-│   ├── problem_i_code.cpp
-│   ├── problem_i_executive_file.exe
-│   └── problem_n°i_instructions.pdf
-|   ...
-└── README.md
+.<br />
+├── problem_i<br />
+│   ├── problem_i_code.cpp<br />
+│   ├── problem_i_executive_file.exe<br />
+│   └── problem_n°i_instructions.pdf<br />
+|   ...<br />
+└── README.md<br />
 
 ## References
 These problems have been solved in the context of a course I took in my Master 1 in telecom Paris entitled : [INF280, Préparation au concours de programmation](https://synapses.telecom-paris.fr/catalogue/2022-2023/ue/2128/INF280-preparation-aux-concours-de-programmation-programming-contest-training?from=D1)
